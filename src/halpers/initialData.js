@@ -1,41 +1,18 @@
 const initialData = {
     location: {
-        name: "Brasília",
-        region: "Distrito Federal",
-        country: "Brasil",
-        lat: -15.78,
-        lon: -47.92,
-        tz_id: "America/Sao_Paulo",
-        localtime_epoch: 1675451625,
-        localtime: "2023-02-03 16:13",
+        name: "",
+        region: "",
+        country: "",
     },
     current: {
-        last_updated_epoch: 1675450800,
-        last_updated: "2023-02-03 16:00",
-        temp_c: 27.0,
-        temp_f: 80.6,
-        is_day: 1,
+        temp_c: 0,
         condition: {
-            text: "Moderate or heavy rain shower",
+            text: "",
             icon: "//cdn.weatherapi.com/weather/64x64/day/356.png",
-            code: 1243,
+            
         },
-        wind_mph: 13.6,
-        wind_kph: 22.0,
-        wind_degree: 350,
-        wind_dir: "N",
-        pressure_mb: 1018.0,
-        pressure_in: 30.06,
-        precip_mm: 0.1,
-        precip_in: 0.0,
-        humidity: 54,
-        cloud: 75,
-        feelslike_c: 29.3,
-        feelslike_f: 84.7,
-        vis_km: 10.0,
-        vis_miles: 6.0,
-        uv: 5.0,
-        gust_mph: 7.8,
-        gust_kph: 12.6,
+        
     },
 }
+
+export default initialData
