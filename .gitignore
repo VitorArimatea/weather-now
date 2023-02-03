@@ -15,10 +15,10 @@ dist-ssr
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.vite.config.js
-.tailwind.confg.cjs
-.postcss.config.cjs
-.package-lock.json
+vite.config.js
+tailwind.confg.cjs
+postcss.config.cjs
+package-lock.json
 .idea
 .DS_Store
 *.suo
@@ -26,4 +26,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-.yarn.lock*
+yarn.lock*
