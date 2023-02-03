@@ -1,12 +1,13 @@
 import React from "react"
 import { useState } from "react"
 import fetchData from "./services/api"
+import initialData from "./halpers/initialData"
 
 import Card from './components/Card'
 
 function App() {
   const [city, setCity] = useState('')
-  const [data, setData] = useState({})
+  const [data, setData] = useState(initialData)
 
   const handleSubmit = (event) => {
     event.preventDefault()

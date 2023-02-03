@@ -8,7 +8,7 @@ const {
 } = data
 
     return (
-        <div className="bg-white p-4 mt-5 rounded-lg shadow-md">
+        <div className="bg-white p-4 mt-5 rounded-lg shadow-md min-w-[200px]">
             <div className="text-center">
                 <span className="block text-xl font-bold text-stone-800">
                     {location.name}
@@ -23,9 +23,11 @@ const {
                 <span className="text-2xl mt-1">°C</span>
             </div>
 
-            <div className='text-center'>
-                <span className='block'>{current.condition.icon}</span>
-                <span className='text-stone-700 font-medium'>{current.condition.text}</span>
+            <div className="flex flex-col justify-center items-center">
+                <img src={current.condition.icon} alt="" />
+                <span className="text-stone-700 font-medium">
+                    {current.condition.text}
+                </span>
             </div>
         </div>
     )
