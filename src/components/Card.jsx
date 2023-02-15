@@ -8,7 +8,7 @@ const {
 } = data
 
     return (
-        <div className="bg-white p-4 mt-5 rounded-lg shadow-md min-w-[200px]">
+        <div className="bg-white p-4 mt-5 rounded-lg shadow-md min-w-[200px] w-3/6">
             <div className="text-center">
                 <span className="block text-xl font-bold text-stone-800">
                     {location.name}
