@@ -19,11 +19,6 @@ function App() {
   
   return (
       <div className="flex flex-col w-screen h-screen items-center bg-sky-400">
-          <header className="h-10 w-screen flex justify-center items-center bg-neutral-900">
-              <h1 className="text-slate-100 font-medium cursor-default">
-                  Weather Now
-              </h1>
-          </header>
 
           <main className="h-screen w-screen flex flex-col justify-center items-center">
               <form
@@ -48,9 +43,6 @@ function App() {
 
               <Card data={data} />
           </main>
-          <footer className="w-screen p-2 bg-black text-center">
-              <h2 className="text-slate-50">Feito com muito 💙 por Vítor Oliveira Arimatéa</h2>
-          </footer>
       </div>
   )
 }
